@@ -54,7 +54,7 @@ class Level :
             p = (x + 60 ,HEIGHT - ( y + 22))
             self.columns.append(Polygon(p , 20 , 85 , self.space))
             p = (x + 30 ,HEIGHT - ( y + 70))
-            self.beams.append(Polygon( p , 85 , 20 , self.space))
+            self.columns.append(Polygon( p , 85 , 20 , self.space))
             p = (x + 30 , HEIGHT - (y - 30))
             self.beams.append(Polygon(p , 85 , 20 , self.space))
     
